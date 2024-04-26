@@ -37,8 +37,8 @@ def custom_wait(driver, timeout, condition_type, locator_tuple):
     wait = WebDriverWait(driver, timeout)
     return wait.until(condition_type(locator_tuple))
 
-USERNAME = "aswinarul004@gmail.com"
-PASSWORD = "Arul004*"
+USERNAME = "***@gmail.com"
+PASSWORD = "****"
 LOGIN_PAGE = "https://www.linkedin.com/login"
 CONNECTIONS_PAGE = "https://www.linkedin.com/mynetwork/invite-connect/connections/"
 ENDORSE_PERIOD = 90  # pause for endorsed users in days, that is, do not open users endorsed recently
